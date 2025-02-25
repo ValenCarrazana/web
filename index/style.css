@@ -1,0 +1,88 @@
+/* Eliminar cualquier margen o padding en todo el body */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Mantén la altura de la página completa */
+}
+
+h3{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/* Estilos para el header */
+header {
+  background-color: #221f1f; /* Fondo negro para todo el header */
+  width: 100%; /* Asegura que el header ocupe todo el ancho */
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0;
+  left: 0px;
+  z-index: 1000; /* Se asegura que el header esté siempre por encima del contenido */
+}
+
+/* Contenedor del header */
+.header-container {
+  display: flex; /* Alinea los elementos de manera horizontal */
+  justify-content: center; /* Centra el texto */
+  align-items: center; /* Centra los elementos verticalmente */
+  position: relative; /* Permite la posición absoluta de la imagen */
+  height: 60px; /* Altura del header */
+}
+
+/* Imagen del menú hamburguesa */
+.boton {
+  position: absolute; /* Coloca la imagen en la esquina izquierda */
+  left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Ajuste fino para centrar */
+  width: 30px; /* Ajusta el tamaño de la imagen */
+}
+
+/* Estilos para el título */
+.titulo_nav {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(235, 235, 235); /* Color blanco para el texto */
+  font-size: 24px; /* Tamaño de la fuente */
+  margin: 0; /* Elimina el margen por defecto */
+
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(31, 15, 15); /* Color blanco para el texto */
+  font-size: 24px; /* Tamaño de la fuente */
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+
+/* ---------------------------------------------------------------------------------------------     SECCION 1  */
+
+.foto-inicio{
+  margin: 0px;
+  padding-left: -100px;
+  padding-top: 20px;
+  width: 120%;
+  height: auto;
+  align-items: center;
+  }
+
+#intro{
+  padding-top: 19px;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+
+button{
+  padding: 12px 20px;
+ background-color: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 5px;
+}
